@@ -28,3 +28,6 @@
 [submodule "/Users/marc/.vim/bundle/nerdtree"]
 	path = /Users/marc/.vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/vim-closetag"]
+	path = bundle/vim-closetag
+	url = https://github.com/alvan/vim-closetag.git
