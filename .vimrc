@@ -6,8 +6,9 @@ execute pathogen#infect()
 " |------------------------
 syntax on
 filetype plugin indent on
-set tabstop=4
-set softtabstop=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set expandtab
 
 set number
@@ -147,3 +148,10 @@ let g:syntastic_typescript_checkers = ['tsuquyomi'] " You shouldn't use 'tsc' ch
 " | Angular CLI
 " |------------------------
 autocmd VimEnter * if globpath('.,..','node_modules/@angular') != '' | call angular_cli#init() | endif
+let g:angular_cli_stylesheet_format = 'scss'
+
+" | Ayu Color Scheme
+" |------------------------
+set termguicolors     " enable true colors support
+let ayucolor="light"  " for light version of theme
+colorscheme ayu
