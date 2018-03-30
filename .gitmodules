@@ -25,3 +25,6 @@
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "/Users/marc/.vim/bundle/nerdtree"]
+	path = /Users/marc/.vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
