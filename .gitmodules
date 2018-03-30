@@ -22,3 +22,6 @@
 [submodule "/Users/marc/.vim/bundle/auto-pairs"]
 	path = /Users/marc/.vim/bundle/auto-pairs
 	url = git://github.com/jiangmiao/auto-pairs.git
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
