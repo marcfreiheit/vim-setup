@@ -31,3 +31,6 @@
 [submodule "bundle/vim-closetag"]
 	path = bundle/vim-closetag
 	url = https://github.com/alvan/vim-closetag.git
+[submodule "/Users/marc/.vim/bundle/vim-airline"]
+	path = /Users/marc/.vim/bundle/vim-airline
+	url = https://github.com/vim-airline/vim-airline
