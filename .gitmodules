@@ -37,3 +37,9 @@
 [submodule "bundle/vimtex"]
 	path = bundle/vimtex
 	url = https://github.com/lervag/vimtex
+[submodule "bundle/rainbow-brackets"]
+	path = bundle/rainbow-brackets
+	url = https://github.com/luochen1990/rainbow
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown

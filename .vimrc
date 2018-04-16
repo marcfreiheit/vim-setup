@@ -137,6 +137,8 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+" disable warnings for html to work with angular
+let syntastic_mode_map = { 'passive_filetypes': ['html'] }
 
 " additional settings to use with tsuquyomi
 let g:tsuquyomi_disable_quickfix = 1
@@ -158,3 +160,9 @@ let g:angular_cli_stylesheet_format = 'scss'
 set termguicolors     " enable true colors support
 let ayucolor="light"  " for light version of theme
 colorscheme ayu
+
+" | Airline
+" | ----------------------
+
+" | Rainbow brackets
+let g:rainbow_active = 1
