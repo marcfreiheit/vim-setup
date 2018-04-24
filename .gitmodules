@@ -22,15 +22,9 @@
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
-[submodule "/Users/marc/.vim/bundle/nerdtree"]
-	path = /Users/marc/.vim/bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/vim-closetag"]
 	path = bundle/vim-closetag
 	url = https://github.com/alvan/vim-closetag.git
-[submodule "/Users/marc/.vim/bundle/vim-airline"]
-	path = /Users/marc/.vim/bundle/vim-airline
-	url = https://github.com/vim-airline/vim-airline
 [submodule "bundle/vimtex"]
 	path = bundle/vimtex
 	url = https://github.com/lervag/vimtex

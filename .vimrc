@@ -166,3 +166,5 @@ colorscheme ayu
 
 " | Rainbow brackets
 let g:rainbow_active = 1
+
+set diffopt+=vertical
