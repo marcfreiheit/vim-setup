@@ -49,3 +49,6 @@
 [submodule "bundle/nginx.vim"]
 	path = bundle/nginx.vim
 	url = https://github.com/chr4/nginx.vim
+[submodule "bundle/vim-localvimrc"]
+	path = bundle/vim-localvimrc
+	url = https://github.com/embear/vim-localvimrc
