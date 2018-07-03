@@ -10,6 +10,7 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set expandtab
+set encoding=utf-8
 
 set number
 set showcmd
@@ -154,6 +155,7 @@ let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute " ,"trimming em
 " |------------------------
 autocmd VimEnter * if globpath('.,..','node_modules/@angular') != '' | call angular_cli#init() | endif
 let g:angular_cli_stylesheet_format = 'scss'
+let g:tsuquyomi_single_quote_import=1
 
 " | Ayu Color Scheme
 " |------------------------
@@ -163,6 +165,9 @@ colorscheme ayu
 
 " | Airline
 " | ----------------------
+let g:airline#extensions#tabline#formatter = 'unique_tail'
+let g:airline_powerline_fonts = 1
+set guifont=Roboto\ Mono\ for\ Powerline
 
 " | Rainbow brackets
 let g:rainbow_active = 1
