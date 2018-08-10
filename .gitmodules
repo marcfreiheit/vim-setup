@@ -58,3 +58,6 @@
 [submodule "vim-python-pep8-indent"]
 	path = vim-python-pep8-indent
 	url = https://github.com/Vimjas/vim-python-pep8-indent.git
+[submodule "bundle/vdebug"]
+	path = bundle/vdebug
+	url = https://github.com/vim-vdebug/vdebug
